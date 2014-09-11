@@ -8,15 +8,15 @@
 </head>
 <body>
 <h2>spring mvc</h2>
-
-<form action="" method="post">
+<p id="msg" style="color:red ">${msg }</p>
+<form action="login.html" method="post">
 	username:<input type="text" name="username" />
 	<p>
 	password:<input type="password" name="password"/>
 	<p>
 	<input type="submit" value="submit" />
 </form>
-
+<a href="other.html">other page</a>
 
 </body>
 </html>
